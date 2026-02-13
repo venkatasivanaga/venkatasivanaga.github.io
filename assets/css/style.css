@@ -74,3 +74,25 @@ h3 { font-size: 14px; margin: 0 0 6px; color: var(--muted); font-weight: 600; }
 }
 
 .footer { padding: 28px 0 40px; color: var(--muted); }
+
+.project-list { display: grid; gap: 12px; }
+.project {
+  display: block;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.02);
+  text-decoration: none;
+}
+.project:hover { background: rgba(255,255,255,0.04); text-decoration: none; }
+.project-title { font-weight: 700; margin-bottom: 4px; }
+.project-sub { color: var(--muted); font-size: 14px; margin-bottom: 10px; }
+.tags { display: flex; gap: 8px; flex-wrap: wrap; }
+.tag {
+  font-size: 12px;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  padding: 3px 8px;
+  border-radius: 999px;
+}
+.disabled { opacity: 0.55; pointer-events: none; }
