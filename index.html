@@ -1,13 +1,76 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Venkata | Portfolio</title>
+  <title>Venkata Siva Reddy Naga</title>
+  <meta name="description" content="Portfolio of Venkata Siva Reddy Naga — ML/DS/DE/SDE projects." />
+  <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
+
 <body>
-  <h1>Venkata Siva Reddy Naga</h1>
-  <p>M.S. Applied Data Science @ University of Florida</p>
-  <p>GitHub: <a href="https://github.com/venkatasivanaga">venkatasivanaga</a></p>
+  <header class="container">
+    <nav class="nav">
+      <a class="brand" href="/">Venkata Siva Reddy Naga</a>
+      <div class="nav-links">
+        <a href="/projects/">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Venkata Siva Reddy Naga</h1>
+      <p class="sub">
+        M.S. Applied Data Science @ University of Florida • ML / Data / Software Engineering
+      </p>
+
+      <div class="cta">
+        <a class="btn" href="/projects/">View Projects</a>
+        <a class="btn ghost" href="https://github.com/venkatasivanaga" target="_blank" rel="noreferrer">GitHub</a>
+        <!-- Optional: add LinkedIn + Resume PDF later -->
+      </div>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div>
+          <h3>Backend</h3>
+          <p>Java (Spring Boot), REST APIs, Auth (JWT), Testing</p>
+        </div>
+        <div>
+          <h3>Data</h3>
+          <p>SQL (Postgres), ETL, Data Modeling, Analytics</p>
+        </div>
+        <div>
+          <h3>ML</h3>
+          <p>Python, sklearn/PyTorch, MLflow, Model Serving</p>
+        </div>
+        <div>
+          <h3>Frontend</h3>
+          <p>TypeScript, React, Dashboards</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:your-email@example.com">your-email@example.com</a><br/>
+        GitHub: <a href="https://github.com/venkatasivanaga" target="_blank" rel="noreferrer">venkatasivanaga</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="y"></span> Venkata Siva Reddy Naga</p>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
