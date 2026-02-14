@@ -96,3 +96,30 @@ h3 { font-size: 14px; margin: 0 0 6px; color: var(--muted); font-weight: 600; }
   border-radius: 999px;
 }
 .disabled { opacity: 0.55; pointer-events: none; }
+
+.actions { margin-top: 12px; display: flex; gap: 10px; flex-wrap: wrap; }
+.project { cursor: pointer; }
+.project .btn { text-decoration: none; }
+.timeline { display: grid; gap: 14px; }
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: rgba(255,255,255,0.02);
+}
+
+.title { font-weight: 700; margin-bottom: 2px; }
+.meta { color: var(--muted); font-size: 14px; margin-bottom: 6px; }
+.right { color: var(--muted); font-size: 14px; white-space: nowrap; }
+
+.bullets { margin: 8px 0 0; padding-left: 18px; }
+.bullets li { margin: 6px 0; color: var(--fg); }
+
+@media (max-width: 720px) {
+  .row { grid-template-columns: 1fr; }
+  .right { white-space: normal; }
+}

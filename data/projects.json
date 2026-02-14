@@ -1,0 +1,19 @@
+
+  [
+  {
+    "id": "p1-data-platform",
+    "title": "P1 • FuelDeep3D",
+    "subtitle": "LiDAR/remote-sensing pipeline + tooling for fuel mapping and analysis.",
+    "tags": ["R", "Python", "LiDAR", "GIS"],
+    "repo": "https://github.com/venkatasivanaga/FuelDeep3D"
+  },
+  {
+    "id": "p2-network-copilot",
+    "title": "P2 • Network Diagnostics Copilot",
+    "subtitle": "LLM-assisted troubleshooting with structured runbooks and telemetry.",
+    "tags": ["Python", "RAG", "TypeScript"],
+    "repo": "https://github.com/venkatasivanaga/your-repo-here",
+    "page": false
+  }
+]
+
