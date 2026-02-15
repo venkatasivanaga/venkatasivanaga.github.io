@@ -6,6 +6,16 @@
   --border: rgba(231, 237, 245, 0.10);
 }
 
+/* Light theme overrides */
+[data-theme="light"] {
+  --bg: #ffffff;
+  --fg: #0b0f14;
+  --muted: #475569;
+  --card: #f6f7f9;
+  --border: rgba(15, 23, 42, 0.12);
+}
+
+
 * { box-sizing: border-box; }
 html, body { height: 100%; }
 body {
@@ -29,6 +39,17 @@ a:hover { text-decoration: underline; }
   justify-content: space-between;
   padding: 18px 0;
 }
+
+.icon-btn {
+  margin-left: 12px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--fg);
+  border-radius: 10px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+.icon-btn:hover { background: rgba(255,255,255,0.04); }
 
 .brand { font-weight: 600; }
 .nav-links a { margin-left: 14px; color: var(--muted); }
@@ -123,3 +144,61 @@ h3 { font-size: 14px; margin: 0 0 6px; color: var(--muted); font-weight: 600; }
   .row { grid-template-columns: 1fr; }
   .right { white-space: normal; }
 }
+.theme-toggle {
+  margin-left: 12px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.theme-toggle input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.theme-toggle .track {
+  width: 54px;
+  height: 30px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+
+[data-theme="light"] .theme-toggle .track {
+  background: rgba(0,0,0,0.04);
+}
+
+.theme-toggle .icon {
+  font-size: 14px;
+  line-height: 1;
+  opacity: 0.75;
+}
+
+.theme-toggle .thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background: var(--fg);
+  transition: transform 180ms ease;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.25);
+}
+
+/* When checked (light mode), move thumb right */
+.theme-toggle input:checked + .track .thumb {
+  transform: translateX(24px);
+}
+
+/* Optional: brighten the active icon */
+.theme-toggle input:checked + .track .sun { opacity: 1; }
+.theme-toggle input:not(:checked) + .track .moon { opacity: 1; }
+.nav-links a.active { color: var(--fg); text-decoration: underline; text-underline-offset: 6px; }
