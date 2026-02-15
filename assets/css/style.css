@@ -202,3 +202,5 @@ h3 { font-size: 14px; margin: 0 0 6px; color: var(--muted); font-weight: 600; }
 .theme-toggle input:checked + .track .sun { opacity: 1; }
 .theme-toggle input:not(:checked) + .track .moon { opacity: 1; }
 .nav-links a.active { color: var(--fg); text-decoration: underline; text-underline-offset: 6px; }
+.mini { margin: 12px 0 6px; font-size: 14px; color: var(--muted); font-weight: 700; }
+.tech { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; }
