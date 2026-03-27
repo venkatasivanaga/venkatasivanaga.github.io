@@ -73,8 +73,7 @@
     .hero h1 .line{display:block;overflow:hidden}
     .hero h1 .line span{display:block;transform:translateY(100%);animation:lR .8s cubic-bezier(.16,1,.3,1) forwards}
     .hero h1 .line:nth-child(1) span{animation-delay:.25s}
-    .hero h1 .line:nth-child(2) span{animation-delay:.38s}
-    .hero h1 .line:nth-child(3) span{animation-delay:.51s;color:var(--accent);text-shadow:0 0 40px var(--glow)}
+    .hero h1 .line:nth-child(2) span{animation-delay:.38s;color:var(--accent);text-shadow:0 0 40px var(--glow)}
     @keyframes lR{to{transform:translateY(0)}}
     .hero-bio{font-size:.95rem;color:var(--muted);max-width:500px;line-height:1.85;margin-bottom:2.2rem;opacity:0;animation:sIn .7s ease .55s forwards}
     .hero-actions{display:flex;gap:.75rem;flex-wrap:wrap;opacity:0;animation:sIn .7s ease .7s forwards}
@@ -238,26 +237,6 @@
   </style>
 </head>
 <body>
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <header class="container" id="site-header"></header>
-  <script src="/assets/js/header.js"></script>
-  <script src="/assets/js/theme.js"></script>
-
-  <main class="container">
-    <section class="hero">
-      <h1>Venkata Naga</h1>
-      <p class="sub">
-        M.S. Applied Data Science @ University of Florida • ML / Data / Software Engineering
-      </p>
-
-      <div class="cta">
-        <a class="btn" href="/projects/">View Projects</a>
-        <a class="btn ghost" href="https://github.com/venkatasivanaga" target="_blank" rel="noreferrer">GitHub</a>
-        <!-- Optional: add LinkedIn + Resume PDF later -->
-=======
-=======
->>>>>>> d37b2f2 (update index)
 
 <div id="cursor"></div>
 <div id="cursor-ring"></div>
@@ -271,10 +250,10 @@
     <a class="nav-brand" href="/">Venkata Siva Reddy Naga</a>
     <div class="nav-right">
       <div class="nav-links">
-        <a href="#skills">Skills</a>
         <a href="#education">Education</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
         <a href="#publications">Publications</a>
         <a href="#contact">Contact</a>
       </div>
@@ -282,67 +261,11 @@
         <span class="theme-icon">🌙</span>
         <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"></button>
         <span class="theme-icon">☀️</span>
-<<<<<<< HEAD
->>>>>>> 0154bcf (Update)
-=======
-=======
-  <header class="container" id="site-header"></header>
-  <script src="/assets/js/header.js"></script>
-  <script src="/assets/js/theme.js"></script>
-
-  <main class="container">
-    <section class="hero">
-      <h1>Venkata Naga</h1>
-      <p class="sub">
-        M.S. Applied Data Science @ University of Florida • ML / Data / Software Engineering
-      </p>
-
-      <div class="cta">
-        <a class="btn" href="/projects/">View Projects</a>
-        <a class="btn ghost" href="https://github.com/venkatasivanaga" target="_blank" rel="noreferrer">GitHub</a>
-        <!-- Optional: add LinkedIn + Resume PDF later -->
->>>>>>> 1dd18872af8555cd567cb513c572b1d5ba8e93b8
->>>>>>> d37b2f2 (update index)
       </div>
     </div>
   </nav>
 </header>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <section id="skills" class="card">
-      <h2>Skills</h2>
-      <div class="grid">
-        <div>
-          <h3>Programming</h3>
-          <p>Python, C/C++, Java, SQL, R, Linux/Bash, Object-Oriented Programming (OOP)</p>
-        </div>
-        <div>
-          <h3>Machine Learning & Deep Learning</h3>
-          <p>Anomaly detection, clustering, time series analysis, CNNs, U-Net, LSTM, classification, regression, ROC-AUC, F1, precision/recall</p>
-        </div>
-        <div>
-          <h3>Backend & APIs</h3>
-          <p>REST APIs, HTTP/HTTPS, JSON, FastAPI, Authentication (JWT), API documentation</p>
-        </div>
-        <div>
-          <h3>MLOps & DevOps</h3>
-          <p>Git/GitHub, Docker, MLflow, Jupyter, VS Code, Profiling & performance: torch.profiler, nvidia-smi</p>
-        </div>
-        <div>
-          <h3>Cloud</h3>
-          <p>AWS: EC2, S3, Lambda, API Gateway, Azure</p>
-        </div>
-        <div>
-          <h3>BI Tools</h3>
-          <p>Tableau, Power BI, Excel (Advanced)</p>
-        </div>
-        <div>
-          <h3>Databases</h3>
-          <p>PostgreSQL, MySQL, Oracle/PL/SQL, MongoDB, BigQuery, Snowflake</p>
-=======
-=======
->>>>>>> d37b2f2 (update index)
 <!-- HERO -->
 <div class="container">
   <section class="hero">
@@ -350,7 +273,6 @@
       <div class="hero-label">M.S. Applied Data Science · University of Florida</div>
       <h1>
         <span class="line"><span>Venkata</span></span>
-        <span class="line"><span>Siva Reddy</span></span>
         <span class="line"><span>Naga</span></span>
       </h1>
       <p class="hero-bio">Data scientist and software engineer specialising in machine learning, 3D remote sensing, and end-to-end data systems. Published CRAN package author and IEEE conference author. Currently at the University of Florida applying deep learning to LiDAR point clouds for forest fuel mapping and hurricane damage assessment.</p>
@@ -358,7 +280,7 @@
         <a class="btn btn-primary" href="#projects">View Projects</a>
         <a class="btn btn-ghost" href="https://github.com/venkatasivanaga" target="_blank" rel="noreferrer">GitHub ↗</a>
         <a class="btn btn-linkedin" href="https://www.linkedin.com/in/nvsivareddy20/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-        <a class="btn btn-ghost" href="mailto:venkatasivareddy003@gmail.com">Email</a>
+        <a class="btn btn-ghost" href="/cdn-cgi/l/email-protection#0274676c69637663716b7463706766667b32323142656f636b6e2c616d6f">Email</a>
       </div>
     </div>
     <div class="hero-avatar-wrap">
@@ -373,342 +295,10 @@
     <div class="stat"><div class="stat-num" data-target="3">0</div><div class="stat-label">Publications</div></div>
     <div class="stat"><div class="stat-num" data-target="1">0</div><div class="stat-label">CRAN Package</div></div>
     <div class="stat"><div class="stat-num" data-prefix="20+">0</div><div class="stat-label">Projects</div></div>
-    <!-- <div class="stat"><div class="stat-num" data-target="5">0</div><div class="stat-label">Roles & Internships</div></div> -->
+    <div class="stat"><div class="stat-num" data-target="5">0</div><div class="stat-label">Roles & Internships</div></div>
   </div>
 </div>
 
-<!-- ══ SKILLS ══ -->
-<section id="skills" class="section">
-  <div class="container">
-    <div class="section-header reveal">
-      <span class="section-num">01 /</span>
-      <h2 class="section-title">Skills &amp; Tools</h2>
-    </div>
-    <div class="skills-grid reveal rd1">
-      <div class="skill-block">
-        <div class="skill-cat">Machine Learning</div>
-        <div class="skill-items">
-          <span class="skill-item">Python</span><span class="skill-item">PyTorch</span><span class="skill-item">scikit-learn</span>
-          <span class="skill-item">MLflow</span><span class="skill-item">PointNet++</span><span class="skill-item">CUDA</span>
-          <span class="skill-item">NumPy</span><span class="skill-item">pandas</span>
-<<<<<<< HEAD
->>>>>>> 0154bcf (Update)
-=======
-=======
-    <section id="skills" class="card">
-      <h2>Skills</h2>
-      <div class="grid">
-        <div>
-          <h3>Programming</h3>
-          <p>Python, C/C++, Java, SQL, R, Linux/Bash, Object-Oriented Programming (OOP)</p>
-        </div>
-        <div>
-          <h3>Machine Learning & Deep Learning</h3>
-          <p>Anomaly detection, clustering, time series analysis, CNNs, U-Net, LSTM, classification, regression, ROC-AUC, F1, precision/recall</p>
-        </div>
-        <div>
-          <h3>Backend & APIs</h3>
-          <p>REST APIs, HTTP/HTTPS, JSON, FastAPI, Authentication (JWT), API documentation</p>
-        </div>
-        <div>
-          <h3>MLOps & DevOps</h3>
-          <p>Git/GitHub, Docker, MLflow, Jupyter, VS Code, Profiling & performance: torch.profiler, nvidia-smi</p>
-        </div>
-        <div>
-          <h3>Cloud</h3>
-          <p>AWS: EC2, S3, Lambda, API Gateway, Azure</p>
-        </div>
-        <div>
-          <h3>BI Tools</h3>
-          <p>Tableau, Power BI, Excel (Advanced)</p>
-        </div>
-        <div>
-          <h3>Databases</h3>
-          <p>PostgreSQL, MySQL, Oracle/PL/SQL, MongoDB, BigQuery, Snowflake</p>
->>>>>>> 1dd18872af8555cd567cb513c572b1d5ba8e93b8
->>>>>>> d37b2f2 (update index)
-        </div>
-      </div>
-      <div class="skill-block">
-        <div class="skill-cat">Remote Sensing &amp; 3D</div>
-        <div class="skill-items">
-          <span class="skill-item">LiDAR / TLS</span><span class="skill-item">LAS / LAZ</span>
-          <span class="skill-item">lidR</span><span class="skill-item">Point Clouds</span>
-          <span class="skill-item">R</span><span class="skill-item">Forest Analytics</span>
-        </div>
-      </div>
-      <div class="skill-block">
-        <div class="skill-cat">Data Engineering</div>
-        <div class="skill-items">
-          <span class="skill-item">SQL</span><span class="skill-item">PostgreSQL</span><span class="skill-item">dbt</span>
-          <span class="skill-item">ETL Pipelines</span><span class="skill-item">Data Modelling</span>
-          <span class="skill-item">Docker</span><span class="skill-item">pgvector</span>
-        </div>
-      </div>
-      <div class="skill-block">
-        <div class="skill-cat">Backend &amp; Frontend</div>
-        <div class="skill-items">
-          <span class="skill-item">Java</span><span class="skill-item">Spring Boot</span><span class="skill-item">FastAPI</span>
-          <span class="skill-item">REST APIs</span><span class="skill-item">JWT Auth</span>
-          <span class="skill-item">TypeScript</span><span class="skill-item">React</span>
-        </div>
-      </div>
-      <div class="skill-block">
-        <div class="skill-cat">Cloud &amp; Infrastructure</div>
-        <div class="skill-items">
-          <span class="skill-item">AWS (EC2, S3, Lambda)</span><span class="skill-item">Cloudflare Workers</span>
-          <span class="skill-item">GitHub Actions</span><span class="skill-item">GitHub Pages</span>
-          <span class="skill-item">Backblaze B2</span>
-        </div>
-      </div>
-      <div class="skill-block">
-        <div class="skill-cat">AI, Retrieval &amp; LLMs</div>
-        <div class="skill-items">
-          <span class="skill-item">RAG</span><span class="skill-item">Embeddings</span><span class="skill-item">LangChain</span>
-          <span class="skill-item">Vector Search</span><span class="skill-item">LLM APIs</span><span class="skill-item">LSTM</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <section id="education" class="card">
-      <h2>Education</h2>
-
-      <div class="timeline">
-        <div class="row">
-          <div>
-            <div class="title">University of Florida</div>
-            <div class="meta">M.S. in Applied Data Science • 2024 -- Expected May 2026</div>
-            <div class="sub">Relevant CourseWork: Machine Learning, Medical Imaging using Deep Learning, Statistics and Probability, Data Engineering, Data Science</div>
-          </div>
-          <div class="right">Gainesville, FL</div>
-        </div>
-
-        <!-- Optional: add your bachelor’s below -->
-      
-        <div class="row">
-          <div>
-            <div class="title">R.M.K. Engineering College</div>
-            <div class="meta">B.Tech in Artificial Intelligence & Data Science • 2020 -- 2024</div>
-            <div class="sub">Relevant CourseWork: Data Science, Software Engineering, Artificial Intelligence, High-Performance Computing, Linear Algebra </div>
-          </div>
-          <div class="right">Chennai, India</div>
-        </div>
-    
-      </div>
-    </section>
-
-
-    <section id="experience" class="card">
-  <h2>Experience</h2>
-
-  <div class="timeline">
-    <div class="row">
-      <div>
-        <div class="title">Research Assistant • Forest Biometrics & Remote Sensing Lab</div>
-        <div class="meta">University of Florida • May 2025 – Present</div>
-        <div class="sub">
-          Built reproducible ML pipelines for LiDAR point clouds + remote sensing data, training advanced PointNet-based models for canopy/fuels analysis with strong evaluation and iteration workflow.
-          </div>
-
-            <h4 class="mini">What I did</h4>
-            <ul class="bullets">
-              <li>Designed an end-to-end pipeline for preprocessing → patch generation → training → evaluation on LiDAR point-cloud datasets.</li>
-              <li>Trained advanced PointNet-based architectures (PointNet++ style) and compared experiments using repeatable configs and tracked metrics.</li>
-              <li>Streamlined data handling and training runs to support repeatable iteration and reliable results across multiple experiments.</li>
-            </ul>
-
-            <h4 class="mini">Scale & results</h4>
-            <ul class="bullets">
-              <li>Processed <b>7–10 GB</b> of LiDAR/remote-sensing data and generated <b>100–1000</b> training patches for modeling.</li>
-              <li>Completed training/evaluation runs spanning <b>~4–19 hours</b> depending on dataset size and model settings.</li>
-              <li>Produced project-ready outputs: cleaned datasets, experiment logs, metrics summaries, and qualitative visual results.</li>
-            </ul>
-
-            <div class="tech">
-              <span class="tag">Python</span>
-              <span class="tag">PyTorch</span>
-              <span class="tag">PointNet++</span>
-              <span class="tag">LiDAR</span>
-              <span class="tag">Remote Sensing</span>
-              <span class="tag">Linux</span>
-              <span class="tag">Git</span>
-            </div>
-     
-      </div>
-      <div class="right">Gainesville, FL</div>
-    </div>
-
-    <!-- Add more roles similarly -->
-    
-    <div class="row">
-      <div>
-        <div class="title">Software Engineer Intern • VNR IT Solutions Pvt.Ltd. </div>
-        <div class="meta">Nov 2023 – Jun 2024</div>
-        <div class="sub">
-          Supported cross-functional delivery by gathering requirements, shaping feature documentation, and managing execution artifacts (plans, risks, and release checklists) to keep work on track.
-        </div>
-
-        <h4 class="mini">What I did</h4>
-        <ul class="bullets">
-          <li>Partnered with customers and engineers to capture requirements and translate them into delivery-ready artifacts (vision notes, feature briefs, release checklists).</li>
-          <li>Supported UI updates by clarifying scope, acceptance criteria, and release readiness; ensured changes aligned with stakeholder expectations.</li>
-          <li>Built and maintained project plans (Gantt-style schedules), risk logs, and stakeholder presentations; communicated progress and coordinated corrective actions.</li>
-        </ul>
-
-        <h4 class="mini">Impact</h4>
-        <ul class="bullets">
-          <li>Coordinated <b>~8–15</b> requirements discussions and produced <b>~10–25</b> delivery artifacts (briefs/checklists) to reduce ambiguity and improve handoffs.</li>
-          <li>Maintained a delivery plan across <b>~2–4</b> parallel workstreams, tracking <b>~15–40</b> tasks and dependencies with weekly progress reporting.</li>
-          <li>Logged and managed <b>~5–12</b> delivery risks/issues; enabled faster corrective action and improved on-time delivery confidence.</li>
-        </ul>
-
-        <div class="tech">
-          <span class="tag">Requirements Gathering</span>
-          <span class="tag">Feature Briefs</span>
-          <span class="tag">Release Checklists</span>
-          <span class="tag">Gantt Planning</span>
-          <span class="tag">Risk Logs</span>
-          <span class="tag">Stakeholder Updates</span>
-          <span class="tag">Agile Delivery</span>
-        </div>
-      </div>
-
-      </div>
-      <div class="right">Bengaluru, India</div>
-    </div>
-  
-     <div class="row">
-      <div>
-        <div class="title">Data Science Research Intern• Shiash Info Solutions <Pvt class="Ltd"></Pvt></div>
-        <div class="meta">Jun 2023 – Oct 2023</div>
-        <div class="sub">
-           Built ETL-style pipelines in SQL/Python to clean, normalize, and merge 300K+ rows of business data, then ran EDA + modeling to surface trend drivers and improve baseline model performance.
-        </div>
-     
-        <h4 class="mini">What I did</h4>
-        <ul class="bullets">
-          <li>Built ETL pipelines to clean and merge multi-source datasets (300K+ rows) using normalization, categorical handling, and consistent typing; reduced manual cleanup by ~5 hrs/week.</li>
-          <li>Performed deep EDA to identify trend drivers, anomalies, and segment behavior; translated findings into actionable insights for stakeholders.</li>
-          <li>Validated baseline regression/classification models; improved F1 by 9% through feature refinement and decision-threshold tuning with stakeholder-ready tables/visuals.</li>
-        </ul>
-
-        <h4 class="mini">Results</h4>
-        <ul class="bullets">
-          <li>Processed and standardized 300K+ rows across multiple sources into an analytics-ready dataset.</li>
-          <li>Cut manual data cleanup by ~5 hours/week through reusable ETL + validation checks.</li>
-          <li>Improved model F1 by 9% through feature engineering and threshold optimization.</li>
-        </ul>
-
-        <div class="tech">
-          <span class="tag">SQL</span>
-          <span class="tag">Python</span>
-          <span class="tag">pandas</span>
-          <span class="tag">NumPy</span>
-          <span class="tag">Git</span>
-          <span class="tag">EDA</span>
-          <span class="tag">Model Evaluation</span>
-        </div>
-      </div>
-      <div class="right">Hyderabad, India</div>
-    </div>
-
-  <div class="row">
-  <div>
-    <div class="title">AWS Software Engineering Intern • Data Automation</div>
-    <div class="meta">Choice Solutions Pvt. Ltd • Feb 2022 – May 2022</div>
-
-    <div class="sub">
-      Automated data extraction and reporting refresh workflows with repeatable scripts and structured logging, improving reliability of updates and speeding up issue triage with clear runbooks.
-    </div>
-
-    <h4 class="mini">What I did</h4>
-    <ul class="bullets">
-      <li>Automated data refresh workflows for extraction and reporting using repeatable scripts and consistent execution patterns.</li>
-      <li>Supported file-to-table style loads, schema alignment, and environment-to-environment data transfers to reduce manual steps and avoid drift.</li>
-      <li>Created runbooks and troubleshooting guides so teams could operate and maintain jobs reliably.</li>
-    </ul>
-
-    <h4 class="mini">Results</h4>
-    <ul class="bullets">
-      <li>Improved reliability of scheduled refreshes by standardizing execution and adding structured logs.</li>
-      <li>Reduced issue triage time by enabling faster debugging through consistent logging and runbook-driven steps.</li>
-      <li>Improved handoff and maintainability by documenting workflows and common failure modes.</li>
-    </ul>
-
-    <div class="tech">
-      <span class="tag">AWS</span>
-      <span class="tag">EC2</span>
-      <span class="tag">S3</span>
-      <span class="tag">Lambda</span>
-      <span class="tag">API Gateway</span>
-      <span class="tag">Python</span>
-      <span class="tag">SQL</span>
-      <span class="tag">Git</span>
-      <span class="tag">Logging</span>
-    </div>
-  </div>
-
-  <div class="right">India</div>
-</div>
-
-     <div class="row">
-      <div>
-        <div class="title">Software Engineer Intern • Brainovision Solutions India Pvt.Ltd</div>
-        <div class="meta">May 2021 – Jun 2021</div>
-        <div class="sub">
-            Automated data extraction and reporting refreshes with repeatable scripts and structured logging, improving reliability of data updates and speeding up issue triage with clear runbooks.
-          </div>
-
-          <h4 class="mini">What I did</h4>
-          <ul class="bullets">
-            <li>Automated extraction and reporting refresh workflows with repeatable scripts, improving reliability through structured logging and consistent run execution.</li>
-            <li>Supported file-to-table loads, schema alignment, and environment-to-environment transfers to reduce manual steps and avoid schema drift.</li>
-            <li>Authored runbooks and troubleshooting steps to enable reliable handoffs and faster maintenance by other teams.</li>
-          </ul>
-
-          <h4 class="mini">Results</h4>
-          <ul class="bullets">
-            <li>Improved repeatability of data refreshes with scripted runs and structured logs.</li>
-            <li>Accelerated issue triage using standardized logging and runbook-driven troubleshooting.</li>
-            <li>Enabled smoother environment migrations via schema alignment and load validation checks.</li>
-          </ul>
-
-          <div class="tech">
-            <span class="tag">AWS</span>
-            <span class="tag">EC2</span>
-            <span class="tag">S3</span>
-            <span class="tag">Lambda</span>
-            <span class="tag">API Gateway</span>
-            <span class="tag">Python</span>
-            <span class="tag">SQL</span>
-            <span class="tag">Linux</span>
-            <span class="tag">Git</span>
-            <span class="tag">Logging</span>
-          </div>
-        </div>
-
-      <div class="right">Hyderabad, India</div>
-    </div>
-
-  </div>
-</section>
-
-
-    <section id="contact" class="card">
-      <h2>Contact</h2>
-      <p>
-        Email: <a href="mailto:venkatasivareddy003@gmail.com">venkatasivareddy003@gmail.com</a><br/>
-        GitHub: <a href="https://github.com/venkatasivanaga" target="_blank" rel="noreferrer">venkatasivanaga</a>
-      </p>
-    </section>
-  </main>
-=======
-=======
->>>>>>> d37b2f2 (update index)
 <!-- ══ EDUCATION ══ -->
 <section id="education" class="section">
   <div class="container">
@@ -740,244 +330,6 @@
     </div>
   </div>
 </section>
-<<<<<<< HEAD
->>>>>>> 0154bcf (Update)
-=======
-=======
-    <section id="education" class="card">
-      <h2>Education</h2>
-
-      <div class="timeline">
-        <div class="row">
-          <div>
-            <div class="title">University of Florida</div>
-            <div class="meta">M.S. in Applied Data Science • 2024 -- Expected May 2026</div>
-            <div class="sub">Relevant CourseWork: Machine Learning, Medical Imaging using Deep Learning, Statistics and Probability, Data Engineering, Data Science</div>
-          </div>
-          <div class="right">Gainesville, FL</div>
-        </div>
-
-        <!-- Optional: add your bachelor’s below -->
-      
-        <div class="row">
-          <div>
-            <div class="title">R.M.K. Engineering College</div>
-            <div class="meta">B.Tech in Artificial Intelligence & Data Science • 2020 -- 2024</div>
-            <div class="sub">Relevant CourseWork: Data Science, Software Engineering, Artificial Intelligence, High-Performance Computing, Linear Algebra </div>
-          </div>
-          <div class="right">Chennai, India</div>
-        </div>
-    
-      </div>
-    </section>
-
-
-    <section id="experience" class="card">
-  <h2>Experience</h2>
-
-  <div class="timeline">
-    <div class="row">
-      <div>
-        <div class="title">Research Assistant • Forest Biometrics & Remote Sensing Lab</div>
-        <div class="meta">University of Florida • May 2025 – Present</div>
-        <div class="sub">
-          Built reproducible ML pipelines for LiDAR point clouds + remote sensing data, training advanced PointNet-based models for canopy/fuels analysis with strong evaluation and iteration workflow.
-          </div>
-
-            <h4 class="mini">What I did</h4>
-            <ul class="bullets">
-              <li>Designed an end-to-end pipeline for preprocessing → patch generation → training → evaluation on LiDAR point-cloud datasets.</li>
-              <li>Trained advanced PointNet-based architectures (PointNet++ style) and compared experiments using repeatable configs and tracked metrics.</li>
-              <li>Streamlined data handling and training runs to support repeatable iteration and reliable results across multiple experiments.</li>
-            </ul>
-
-            <h4 class="mini">Scale & results</h4>
-            <ul class="bullets">
-              <li>Processed <b>7–10 GB</b> of LiDAR/remote-sensing data and generated <b>100–1000</b> training patches for modeling.</li>
-              <li>Completed training/evaluation runs spanning <b>~4–19 hours</b> depending on dataset size and model settings.</li>
-              <li>Produced project-ready outputs: cleaned datasets, experiment logs, metrics summaries, and qualitative visual results.</li>
-            </ul>
-
-            <div class="tech">
-              <span class="tag">Python</span>
-              <span class="tag">PyTorch</span>
-              <span class="tag">PointNet++</span>
-              <span class="tag">LiDAR</span>
-              <span class="tag">Remote Sensing</span>
-              <span class="tag">Linux</span>
-              <span class="tag">Git</span>
-            </div>
-     
-      </div>
-      <div class="right">Gainesville, FL</div>
-    </div>
-
-    <!-- Add more roles similarly -->
-    
-    <div class="row">
-      <div>
-        <div class="title">Software Engineer Intern • VNR IT Solutions Pvt.Ltd. </div>
-        <div class="meta">Nov 2023 – Jun 2024</div>
-        <div class="sub">
-          Supported cross-functional delivery by gathering requirements, shaping feature documentation, and managing execution artifacts (plans, risks, and release checklists) to keep work on track.
-        </div>
-
-        <h4 class="mini">What I did</h4>
-        <ul class="bullets">
-          <li>Partnered with customers and engineers to capture requirements and translate them into delivery-ready artifacts (vision notes, feature briefs, release checklists).</li>
-          <li>Supported UI updates by clarifying scope, acceptance criteria, and release readiness; ensured changes aligned with stakeholder expectations.</li>
-          <li>Built and maintained project plans (Gantt-style schedules), risk logs, and stakeholder presentations; communicated progress and coordinated corrective actions.</li>
-        </ul>
-
-        <h4 class="mini">Impact</h4>
-        <ul class="bullets">
-          <li>Coordinated <b>~8–15</b> requirements discussions and produced <b>~10–25</b> delivery artifacts (briefs/checklists) to reduce ambiguity and improve handoffs.</li>
-          <li>Maintained a delivery plan across <b>~2–4</b> parallel workstreams, tracking <b>~15–40</b> tasks and dependencies with weekly progress reporting.</li>
-          <li>Logged and managed <b>~5–12</b> delivery risks/issues; enabled faster corrective action and improved on-time delivery confidence.</li>
-        </ul>
-
-        <div class="tech">
-          <span class="tag">Requirements Gathering</span>
-          <span class="tag">Feature Briefs</span>
-          <span class="tag">Release Checklists</span>
-          <span class="tag">Gantt Planning</span>
-          <span class="tag">Risk Logs</span>
-          <span class="tag">Stakeholder Updates</span>
-          <span class="tag">Agile Delivery</span>
-        </div>
-      </div>
-
-      </div>
-      <div class="right">Bengaluru, India</div>
-    </div>
-  
-     <div class="row">
-      <div>
-        <div class="title">Data Science Research Intern• Shiash Info Solutions <Pvt class="Ltd"></Pvt></div>
-        <div class="meta">Jun 2023 – Oct 2023</div>
-        <div class="sub">
-           Built ETL-style pipelines in SQL/Python to clean, normalize, and merge 300K+ rows of business data, then ran EDA + modeling to surface trend drivers and improve baseline model performance.
-        </div>
-     
-        <h4 class="mini">What I did</h4>
-        <ul class="bullets">
-          <li>Built ETL pipelines to clean and merge multi-source datasets (300K+ rows) using normalization, categorical handling, and consistent typing; reduced manual cleanup by ~5 hrs/week.</li>
-          <li>Performed deep EDA to identify trend drivers, anomalies, and segment behavior; translated findings into actionable insights for stakeholders.</li>
-          <li>Validated baseline regression/classification models; improved F1 by 9% through feature refinement and decision-threshold tuning with stakeholder-ready tables/visuals.</li>
-        </ul>
-
-        <h4 class="mini">Results</h4>
-        <ul class="bullets">
-          <li>Processed and standardized 300K+ rows across multiple sources into an analytics-ready dataset.</li>
-          <li>Cut manual data cleanup by ~5 hours/week through reusable ETL + validation checks.</li>
-          <li>Improved model F1 by 9% through feature engineering and threshold optimization.</li>
-        </ul>
-
-        <div class="tech">
-          <span class="tag">SQL</span>
-          <span class="tag">Python</span>
-          <span class="tag">pandas</span>
-          <span class="tag">NumPy</span>
-          <span class="tag">Git</span>
-          <span class="tag">EDA</span>
-          <span class="tag">Model Evaluation</span>
-        </div>
-      </div>
-      <div class="right">Hyderabad, India</div>
-    </div>
-
-  <div class="row">
-  <div>
-    <div class="title">AWS Software Engineering Intern • Data Automation</div>
-    <div class="meta">Choice Solutions Pvt. Ltd • Feb 2022 – May 2022</div>
-
-    <div class="sub">
-      Automated data extraction and reporting refresh workflows with repeatable scripts and structured logging, improving reliability of updates and speeding up issue triage with clear runbooks.
-    </div>
-
-    <h4 class="mini">What I did</h4>
-    <ul class="bullets">
-      <li>Automated data refresh workflows for extraction and reporting using repeatable scripts and consistent execution patterns.</li>
-      <li>Supported file-to-table style loads, schema alignment, and environment-to-environment data transfers to reduce manual steps and avoid drift.</li>
-      <li>Created runbooks and troubleshooting guides so teams could operate and maintain jobs reliably.</li>
-    </ul>
-
-    <h4 class="mini">Results</h4>
-    <ul class="bullets">
-      <li>Improved reliability of scheduled refreshes by standardizing execution and adding structured logs.</li>
-      <li>Reduced issue triage time by enabling faster debugging through consistent logging and runbook-driven steps.</li>
-      <li>Improved handoff and maintainability by documenting workflows and common failure modes.</li>
-    </ul>
-
-    <div class="tech">
-      <span class="tag">AWS</span>
-      <span class="tag">EC2</span>
-      <span class="tag">S3</span>
-      <span class="tag">Lambda</span>
-      <span class="tag">API Gateway</span>
-      <span class="tag">Python</span>
-      <span class="tag">SQL</span>
-      <span class="tag">Git</span>
-      <span class="tag">Logging</span>
-    </div>
-  </div>
-
-  <div class="right">India</div>
-</div>
-
-     <div class="row">
-      <div>
-        <div class="title">Software Engineer Intern • Brainovision Solutions India Pvt.Ltd</div>
-        <div class="meta">May 2021 – Jun 2021</div>
-        <div class="sub">
-            Automated data extraction and reporting refreshes with repeatable scripts and structured logging, improving reliability of data updates and speeding up issue triage with clear runbooks.
-          </div>
-
-          <h4 class="mini">What I did</h4>
-          <ul class="bullets">
-            <li>Automated extraction and reporting refresh workflows with repeatable scripts, improving reliability through structured logging and consistent run execution.</li>
-            <li>Supported file-to-table loads, schema alignment, and environment-to-environment transfers to reduce manual steps and avoid schema drift.</li>
-            <li>Authored runbooks and troubleshooting steps to enable reliable handoffs and faster maintenance by other teams.</li>
-          </ul>
-
-          <h4 class="mini">Results</h4>
-          <ul class="bullets">
-            <li>Improved repeatability of data refreshes with scripted runs and structured logs.</li>
-            <li>Accelerated issue triage using standardized logging and runbook-driven troubleshooting.</li>
-            <li>Enabled smoother environment migrations via schema alignment and load validation checks.</li>
-          </ul>
-
-          <div class="tech">
-            <span class="tag">AWS</span>
-            <span class="tag">EC2</span>
-            <span class="tag">S3</span>
-            <span class="tag">Lambda</span>
-            <span class="tag">API Gateway</span>
-            <span class="tag">Python</span>
-            <span class="tag">SQL</span>
-            <span class="tag">Linux</span>
-            <span class="tag">Git</span>
-            <span class="tag">Logging</span>
-          </div>
-        </div>
-
-      <div class="right">Hyderabad, India</div>
-    </div>
-
-  </div>
-</section>
-
-
-    <section id="contact" class="card">
-      <h2>Contact</h2>
-      <p>
-        Email: <a href="mailto:venkatasivareddy003@gmail.com">venkatasivareddy003@gmail.com</a><br/>
-        GitHub: <a href="https://github.com/venkatasivanaga" target="_blank" rel="noreferrer">venkatasivanaga</a>
-      </p>
-    </section>
-  </main>
->>>>>>> 1dd18872af8555cd567cb513c572b1d5ba8e93b8
->>>>>>> d37b2f2 (update index)
 
 <!-- ══ EXPERIENCE ══ -->
 <section id="experience" class="section">
@@ -1195,7 +547,7 @@
 
     <!-- GROUP: Data & Analytics -->
     <div class="proj-group-label reveal">Data Engineering &amp; Analytics</div>
-    <div class="projects-grid reveal rd1">
+    <div class="projects-grid reveal rd1" style="grid-template-columns:repeat(2,1fr)">
 
       <div class="project-card">
         <div class="proj-badge"><span class="proj-cat">Analytics Engineering · Full-Stack</span></div>
@@ -1233,7 +585,7 @@
 
     <!-- GROUP: Backend & Cloud -->
     <div class="proj-group-label reveal">Backend, Cloud &amp; Infrastructure</div>
-    <div class="projects-grid reveal rd1">
+    <div class="projects-grid reveal rd1" style="grid-template-columns:repeat(2,1fr)">
 
       <div class="project-card">
         <div class="proj-badge"><span class="proj-cat">Java · Finance · Risk Systems</span></div>
@@ -1267,6 +619,65 @@
         <div class="proj-actions"><a class="btn btn-ghost btn-sm" href="https://github.com/venkatasivanaga" target="_blank" rel="noreferrer">GitHub ↗</a></div>
       </div>
 
+    </div>
+  </div>
+</section>
+
+<!-- ══ SKILLS ══ -->
+<section id="skills" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-num">01 /</span>
+      <h2 class="section-title">Skills &amp; Tools</h2>
+    </div>
+    <div class="skills-grid reveal rd1">
+      <div class="skill-block">
+        <div class="skill-cat">Machine Learning</div>
+        <div class="skill-items">
+          <span class="skill-item">Python</span><span class="skill-item">PyTorch</span><span class="skill-item">scikit-learn</span>
+          <span class="skill-item">MLflow</span><span class="skill-item">PointNet++</span><span class="skill-item">CUDA</span>
+          <span class="skill-item">NumPy</span><span class="skill-item">pandas</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-cat">Remote Sensing &amp; 3D</div>
+        <div class="skill-items">
+          <span class="skill-item">LiDAR / TLS</span><span class="skill-item">LAS / LAZ</span>
+          <span class="skill-item">lidR</span><span class="skill-item">Point Clouds</span>
+          <span class="skill-item">R</span><span class="skill-item">Forest Analytics</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-cat">Data Engineering</div>
+        <div class="skill-items">
+          <span class="skill-item">SQL</span><span class="skill-item">PostgreSQL</span><span class="skill-item">dbt</span>
+          <span class="skill-item">ETL Pipelines</span><span class="skill-item">Data Modelling</span>
+          <span class="skill-item">Docker</span><span class="skill-item">pgvector</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-cat">Backend &amp; Frontend</div>
+        <div class="skill-items">
+          <span class="skill-item">Java</span><span class="skill-item">Spring Boot</span><span class="skill-item">FastAPI</span>
+          <span class="skill-item">REST APIs</span><span class="skill-item">JWT Auth</span>
+          <span class="skill-item">TypeScript</span><span class="skill-item">React</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-cat">Cloud &amp; Infrastructure</div>
+        <div class="skill-items">
+          <span class="skill-item">AWS (EC2, S3, Lambda)</span><span class="skill-item">Cloudflare Workers</span>
+          <span class="skill-item">GitHub Actions</span><span class="skill-item">GitHub Pages</span>
+          <span class="skill-item">Backblaze B2</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-cat">AI, Retrieval &amp; LLMs</div>
+        <div class="skill-items">
+          <span class="skill-item">RAG</span><span class="skill-item">Embeddings</span><span class="skill-item">LangChain</span>
+          <span class="skill-item">Vector Search</span><span class="skill-item">LLM APIs</span><span class="skill-item">LSTM</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -1330,7 +741,7 @@
         <h2>Let's Work Together</h2>
         <p>Open to research collaborations, full-time roles in ML and data engineering, and interesting projects. Feel free to reach out.</p>
         <div class="contact-links">
-          <a class="contact-link-item" href="mailto:venkatasivareddy003@gmail.com"><div class="contact-icon">✉</div>venkatasivareddy003@gmail.com</a>
+          <a class="contact-link-item" href="/cdn-cgi/l/email-protection#bec8dbd0d5dfcadfcdd7c8dfccdbdadac78e8e8dfed9d3dfd7d290ddd1d3"><div class="contact-icon">✉</div><span class="__cf_email__" data-cfemail="5325363d38322732203a2532213637372a63636013343e323a3f7d303c3e">[email&#160;protected]</span></a>
           <a class="contact-link-item" href="https://www.linkedin.com/in/nvsivareddy20/" target="_blank" rel="noreferrer"><div class="contact-icon">in</div>linkedin.com/in/nvsivareddy20</a>
           <a class="contact-link-item" href="https://github.com/venkatasivanaga" target="_blank" rel="noreferrer"><div class="contact-icon">⌥</div>github.com/venkatasivanaga</a>
           <a class="contact-link-item" href="#"><div class="contact-icon">◈</div>Gainesville, FL · University of Florida</a>
@@ -1355,12 +766,12 @@
     <div class="footer-links">
       <a href="https://github.com/venkatasivanaga" target="_blank" rel="noreferrer">GitHub</a>
       <a href="https://www.linkedin.com/in/nvsivareddy20/" target="_blank" rel="noreferrer">LinkedIn</a>
-      <a href="mailto:venkatasivareddy003@gmail.com">Email</a>
+      <a href="/cdn-cgi/l/email-protection#ef998a81848e9b8e9c86998e9d8a8b8b96dfdfdcaf88828e8683c18c8082">Email</a>
     </div>
   </footer>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   document.getElementById('year').textContent = new Date().getFullYear();
 
   // Theme
@@ -1445,11 +856,4 @@
   // Contact form
   function handleSubmit(e) {
     e.preventDefault();
-    const n=document.getElementById('name').value, em=document.getElementById('email').value,
-          s=document.getElementById('subject').value||'Portfolio Contact',
-          m=document.getElementById('message').value;
-    window.location.href=`mailto:venkatasivareddy003@gmail.com?subject=${encodeURIComponent(s)}&body=${encodeURIComponent('Name: '+n+'\nEmail: '+em+'\n\n'+m)}`;
-  }
-</script>
-</body>
-</html>
+    const n=document.getElementById('name').val
